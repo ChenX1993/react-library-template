@@ -1,0 +1,7 @@
+# npm won't public node_modules by default
+src
+example
+.babelrc
+.editorconfig
+webpack.config.js
+file_structure.png
