@@ -1,8 +1,8 @@
 # Simple React Library Template
 
-## File structure
+## File Structure
 
-<img src="file_structure.png" height="500" width="300" />
+<img src="file_structure.png" height="400" width="600" />
 
 ## NPM Publish
 
