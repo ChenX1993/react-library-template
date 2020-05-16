@@ -14,7 +14,18 @@ const devConfig = {
       {
         test: /\.css$/,
         exclude: /\.min\.css$/,
-        loader: ["style-loader", "css-loader?modules"],
+        // loader: ["style-loader", "css-loader?modules"],
+        use: [
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+            options: {
+              modules: false,
+            },
+          },
+        ],
       },
       {
         test: /\.min\.css$/,
