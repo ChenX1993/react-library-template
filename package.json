@@ -1,14 +1,14 @@
 {
   "name": "react-simple-library-template",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Simple react library",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.dev.config.js",
-    "build": "webpack --config config/webpack.prod.config.js",
+    "start": "webpack-dev-server --config webpack_config/webpack.dev.config.js",
+    "build": "webpack --config webpack_config/webpack.prod.config.js",
     "pub": "npm run build && npm publish"
   },
   "keywords": [],
@@ -23,15 +23,19 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/react": "^16.9.35",
+    "@types/styled-components": "^5.1.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "style-loader": "^1.0.0",
+    "styled-components": "^5.1.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7",
-    "webpack-dev-server": "^3.8.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {}
